@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Адаптивность -->
+        <meta name="viewport" content="width = device-width, initial-scale = 1"> <!--Адаптивность -->
+        <meta name="description" content="Это просто тестовове описание для проверки"> <!--Описание сайта в поиске-->
+        <meta name="keywords" content="Test, Site, Просто слова"> <!--Ключевые слова для поиска сайта-->
+
+        <link rel="shortcut icon" type="image x-icon" href="Img/ico.ico"> <!--Иконка сайта-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> <!--Подключение иконочных шрифтов(для стрелки в выпадающем меню)-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--Подключение jquerry-->
+        <link rel="stylesheet" href="Style.css"> <!--Подключение стилей-->
+
+        <title>О Бренде</title> <!--Название сайта-->
+    </head>
+
+    <body>
+        <div class="screen"> <!--Чтобы привязать футер к низу-->
+            <div class="wrapper"> <!--Обертка для адаптивности мобильной версии-->
+                <div class="menu"> <!--Для того чтобы работало боковое меню мобильное-->
+                    <a href="" class="menu-btn"><span></span></a> <!--Кнопка в меню где 3 линии-->
+                    <nav class="menu-list"> <!--Само меню-->
+                        <a href="/">Главная</a>
+                        <!-- <a href="/">Каталог Изделий <i class="fas fa-sort-down"></i></a> -->
+                        <a href="Shop.html">Каталог Товаров</a>
+                        <a href="About.html">О Бренде</a>
+                        <a href="DelAndPay.html">Доставка и Оплата</a>
+                        <a href="Return.html">Возврат</a>
+                        <a href="Contacts.html">Контакты</a>
+                    </nav>
+                </div>
+                <div class="content cont"> <!--Обертка для адаптивности верии ПК-->
+                    <nav class="header">
+                        <a href="index.html"><img src="Img/logo.png"></a>
+                        <!-- <a href="/">Каталог Изделий <i class="fas fa-sort-down"></i></a> -->
+                        <a href="Shop.html">Каталог Товаров</a>
+                        <a href="About.html">О Бренде</a>
+                        <a href="DelAndPay.html">Доставка и Оплата</a>
+                        <a href="Return.html">Возврат</a>
+                        <a href="Contacts.html">Контакты</a>
+                    </nav>
+                    <div class="lg"></div> <!--Здесь хранится большое изображение -->
+                    <div class="ab"> <!--отвечает за стили текста на страницах от "О Бренде" до "Контакты" -->
+                        <h3>НЕМНОГО О НАС</h3>
+                        <h1>FOX'S NOSE - это про лаконичность линий и эстетика простоты</h1>
+                        <p>Наша философия не предполагает яркие, кричащие цвета, мы делаем акцент на легкие и мягкие оттенки в сочетании с высоким качеством.<br>В темпе современного мира хочется быть ближе к чему-то естественному, понятному и минималистичному.<br>Наша путеводная звезда - воплощать уголок спокойствия и уверенности в одежде, которая станет для вас поддержкой и заботой.<br> Правильный крой, не сковывающий движения, и чистота оттенков. Вы можете схватить любые вещи из гардероба и будете уверены в том, что они сочетаются друг с другом, а ваш внешний вид смело говорит "у меня все схвачено".<br>Баланс для Le Vertyver заключается в ощущении комфорта. Если стиль гармонично отображает внутренний мир, одеждаперестает быть просто вещами. Она становится частью личности, натурально и корректно подчеркивая индивидуальность и красоту.
+                        </p>
+                    </div>
+                    <footer class="footer">
+                        <div class="logo-foot"><img src="Img/logo.png"></div>
+                        <div class="list">
+                            <a href="Shop.html">Каталог Товаров</a><br>
+                            <a href="About.html">О Бренде</a><br>
+                            <a href="DelAndPay.html">Доставка и Оплата</a><br>
+                            <a href="Return.html">Возврат</a><br>
+                            <a href="Contacts.html">Контакты</a>
+                        </div>
+                        <div class="follow-foot">
+                            <p>Подпишись и узнавай о распродажах и уникальных акциях</p>
+                            <div>
+                                <input type="email" placeholder="Email">
+                                <a href="#"> Подписаться</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="off">
+                            <a>Политика конфиденциальности</a>
+                            <a>Публичная оферта</a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <script src="Main.js"></script>
+    </body>
+
+</html>
